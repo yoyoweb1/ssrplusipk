@@ -11,9 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: aarch64_generic
-          - arch: aarch64_cortex-a53
-            target: mvebu-cortexa53
+          
+          - arch: arm_cortex-a7_neon-vfpv4
+            target: ipq40xx_generic
 
           - arch: x86_64
             target: x86-64
